@@ -87,7 +87,7 @@ public class QuizProgram {
                     jsonQuestions.add(question);
                 }
 
-                try (FileWriter file = new FileWriter("./src/main/resources/Users.json")) {
+                try (FileWriter file = new FileWriter("./src/main/resources/DATA.json")) {
                     file.write(jsonQuestions.toJSONString());
                     file.flush();
                     file.close();
