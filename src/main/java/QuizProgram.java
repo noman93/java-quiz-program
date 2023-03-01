@@ -21,7 +21,7 @@ public class QuizProgram {
             if (option == 1) {
                 JSONObject question = new JSONObject();
 
-                System.out.println("Enter the question:");
+                System.out.println("Please add a ques here:");
                 String questionText = input.nextLine();
                 question.put("questionText", questionText);
 
@@ -31,7 +31,7 @@ public class QuizProgram {
                 options.put("c", "");
                 options.put("d", "");
                 for (String key : options.keySet()) {
-                    System.out.println("Enter option " + key + ":");
+                    System.out.println("Input option " + key + ":");
                     String optionValue = input.nextLine();
                     options.put(key, optionValue);
                 }
@@ -68,7 +68,7 @@ public class QuizProgram {
                     for (String key : options.keySet()) {
                         System.out.println(key + ") " + options.get(key));
                     }
-                    System.out.println("Enter your answer:");
+                    System.out.println("Please input the correct ans:");
                     String answer = input.nextLine();
 
                     if (answer.equals(question.get("answer"))) {
