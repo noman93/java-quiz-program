@@ -16,7 +16,7 @@ public class QuizProgram {
             System.out.println("1. Add Question");
             System.out.println("2. Start Quiz");
             int option = input.nextInt();
-            input.nextLine(); // Consume the newline character
+            input.nextLine(); 
 
             if (option == 1) {
                 JSONObject question = new JSONObject();
@@ -51,7 +51,7 @@ public class QuizProgram {
                     continue;
                 }
 
-                // Shuffle the list of questions
+                
                 Collections.shuffle(questions);
 
                 int numQuestions = 5;
@@ -81,7 +81,7 @@ public class QuizProgram {
 
                 System.out.println("Quiz finished! You scored " + score + " out of " + numQuestions + ".");
 
-                // Save the questions to a JSON file
+                
                 JSONArray jsonQuestions = new JSONArray();
                 for (JSONObject question : questions) {
                     jsonQuestions.add(question);
