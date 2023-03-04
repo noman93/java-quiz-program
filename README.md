@@ -4,5 +4,6 @@
 ###Program output:
 1. Add Quiz
 2. Start Quiz
+3. Exit
 
 if user select option 1, then system will tell user to input a question, 4 options and correct ans to save data in a quiz bank. The quiz bank will be a json file.
