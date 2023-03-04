@@ -54,5 +54,45 @@
     "Question": "Which of the following is a form of functional testing?",
     "Option c": "Performance testing",
     "Option d": "Usability testing"
+  },
+  {
+    "Option a": " polite and  helpful ",
+    "Option b": "Diplomatic",
+    "answer": "d",
+    "Question": "When reporting faults found to developers, testers should be",
+    "Option c": "sensitive and insisting that a bug is not a �\u20AC�feature�\u20AC? if it should be fixed",
+    "Option d": "All of the above"
+  },
+  {
+    "Option a": " How much regression testing should be done",
+    "Option b": "How many more test cases need to written",
+    "answer": "a",
+    "Question": "Impact Analysis help to decide which of the following testing describe below.",
+    "Option c": "Exit Criteria",
+    "Option d": "Different Tools to perform Regression Testing"
+  },
+  {
+    "Option a": "Test Planning ",
+    "Option b": "Requirement Analysis",
+    "answer": "b",
+    "Question": "Select which of the below is not a Fundamental Test Process?",
+    "Option c": "implementation and Execution",
+    "Option d": "Evaluating test criteria and reporting"
+  },
+  {
+    "Option a": "Syntax testing",
+    "Option b": " Linear Code Sequence and Jump",
+    "answer": "b",
+    "Question": "Which of the following techniques is NOT a black box technique?",
+    "Option c": "State transition testing ",
+    "Option d": "Boundary value analysis"
+  },
+  {
+    "Option a": "User acceptance testing ",
+    "Option b": "Component testing",
+    "answer": "d",
+    "Question": "Select Impact Analysis is used in which of the following?",
+    "Option c": "Non-functional system testing",
+    "Option d": "Maintenance testing"
   }
 ]
