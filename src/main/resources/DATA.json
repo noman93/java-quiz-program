@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "Option a": "Unit Testing",
+    "Option b": "Integration Testing",
+    "answer": "a",
+    "Question": "Which testing is done by developer?",
+    "Option c": "Sanity Testing",
+    "Option d": "Regression Testing"
+  },
+  {
+    "Option a": "Load Testing",
+    "Option b": "Security Testing",
+    "answer": "c",
+    "Question": "Which is functional testing?",
+    "Option c": "Gorilla Testing",
+    "Option d": "Benchmark Testing"
+  },
+  {
+    "Option a": "SQA",
+    "Option b": "SQM",
+    "answer": "a",
+    "Question": "Quality Management in software engineering is also known as",
+    "Option c": "SQI",
+    "Option d": "SQA and SQM "
+  },
+  {
+    "Option a": "Every week",
+    "Option b": "After the software has changed",
+    "answer": "d",
+    "Question": "Select from which of the following regression testing should be performed.",
+    "Option c": "As often as possible",
+    "Option d": "When the environment has changed"
+  },
+  {
+    "Option a": "When all the tests  run",
+    "Option b": "When the  faults have been fixed",
+    "answer": "d",
+    "Question": "When would the testing have been stopped?",
+    "Option c": "When the time completed",
+    "Option d": "when all the risk are resolved"
+  },
+  {
+    "Option a": "Performance",
+    "Option b": "Usability and Security",
+    "answer": "c",
+    "Question": "non-functional test does not belong to which of the following categories?",
+    "Option c": " State level Transition",
+    "Option d": "all of the above"
+  },
+  {
+    "Option a": "Security level testing",
+    "Option b": "Boundary value analysis",
+    "answer": "b",
+    "Question": "Which of the following is a form of functional testing?",
+    "Option c": "Performance testing",
+    "Option d": "Usability testing"
+  }
+]
